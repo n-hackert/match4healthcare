@@ -324,3 +324,4 @@ def change_activation(request):
         messages.add_message(request, messages.INFO,_(
             'Du hast dein Profil erfolgreich aktiviert, du kannst nun wieder von Hilfesuchenden kontaktiert werden.'))
     return HttpResponseRedirect('profile_student')
+
